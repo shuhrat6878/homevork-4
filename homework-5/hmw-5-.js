@@ -87,6 +87,84 @@
 //   }
 // }
 
-// console.log(logParol("admin", "12345"));      
-// console.log(logParol("user", "password"));    
-// console.log(logParol("admin", "wrong"));      
+// console.log(logParol("admin", "12345"));
+// console.log(logParol("user", "password"));
+// console.log(logParol("admin", "wrong"));
+
+// funcsiya 2-misol
+
+// function post(image, title, tags) {
+//     this.image = image;
+//     this.title = title;
+//     this.tags = tags;
+//     this.likes = Math.floor(Math.random() * 1000) + 1;
+//     this.views = Math.floor(Math.random() * 1000) + 1;
+// }
+
+// let insta = new post("photo.jpg", "Bugun zor kun", ["fun", "holiday"]);
+// let insta2 = new post("photo.jpg", "Bugun zor kun", ["fun", "holiday"]);
+
+// console.log(insta);
+// console.log(insta2);
+
+// funcsiya 3-misopl
+
+// let sizeObj={
+//     small: 2500,
+//     medium: 4000,
+//     large: 6000,
+// };
+// let extraObj = {
+//     cheese: 10000,
+//     tomato: 8000,
+//     free: 13000,
+// };
+
+// function orderPizza(size, extra) {
+//     let extraPrice = 0;
+//     for (let i=0; i < extra.length; i++) {
+//         extraPrice += extraObj[extra[i]];
+//     }
+//     this.size = size;
+//     this.extra = extra;
+//     this.price = sizeObj[this.size] + extraPrice;
+//     this.time = `${Math.floor(Math.random()*45)+15} daqiqa` ;
+// }
+// let order = new orderPizza("medium", ["cheese", "tomato"]);
+// let order2 = new orderPizza("medium", ["cheese", "tomato", "free"]);
+
+
+
+// console.log(order);
+// console.log(order2);
+
+
+// function telegramBt(massage, replay, time){
+//     this.massage = massage;
+//     if ()
+//     this.replay = replay;
+//     this.time = time;
+
+// }
+
+// 8- misoll
+
+// function randCommit() {
+//     let str = "qwertyuipasdfghjklzxcvbnm123456789";
+//     let commit = "";
+//     let saveCommit = [];
+//     for (let i = 0; i < 8; i++){
+//         commit += str[Math.floor(Math.random() * str.length)];
+
+//     }
+//     if (!saveCommit.includes(commit)) {
+//         saveCommit.push(commit);
+//         return commit;
+//     } else {
+//         return randCommit();
+
+//     }
+// }
+
+// console.log(randCommit());
+
